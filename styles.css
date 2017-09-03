@@ -59,6 +59,34 @@ h3{
 	font-weight: 700;
 }
 
+.navbar-default .navbar-brand{
+	position: absolute;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+  }
+
+.navbar .navbar-collapse {
+	text-align: center;
+  }
+
+.navbar-default .navbar-nav>li>a {
+	margin: 0 25px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 50px;
+	color: black;
+}
+
+.navbar-nav > li > a:hover{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
 .introduction p{
 	font-weight: 300;
 	font-size: 24px;
